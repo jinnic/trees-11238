@@ -7,6 +7,7 @@
 </script>
 
 {#if $hoveredNode}
+  {console.log($hoveredNode)}
   <div
     class="tooltip"
     style="left: {$hoveredNode.x + OFFSET_X}px; top: {$hoveredNode.y +
@@ -15,7 +16,7 @@
     <!-- For species nodes in treemap -->
     {#if $hoveredNode.speciesCount !== undefined}
       <div class="tooltip-title">
-        {$hoveredNode.speciesName}
+        {$hoveredNode.spc_common}
       </div>
       <div class="tooltip-row">
         <span class="label">Genus:</span>
@@ -68,7 +69,7 @@
       <!-- For regular tree nodes -->
     {:else}
       <div class="tooltip-title">
-        {$hoveredNode.common_name || $hoveredNode.genus_name}
+        {$hoveredNode.spc_common || $hoveredNode.genus_name}
       </div>
       <div class="tooltip-row">
         <span class="label">Genus:</span>

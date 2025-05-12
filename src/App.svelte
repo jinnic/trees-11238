@@ -101,7 +101,7 @@
 
   // Tooltip accessor function
   function getTooltip(node) {
-    return `${node.common_name || node.genus_name}
+    return `${node.spc_common || node.genus_name}
 Genus: ${node.genus_name}
 DBH: ${node.tree_dbh || "Unknown"} inches
 Allergenicity: ${node.Allergenicity || "Unknown"}`;
