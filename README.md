@@ -1,21 +1,14 @@
-# Trees 11238
-
-An interactive data visualization of trees in the 11238 zip code, exploring their distribution, size, species diversity, and seasonal allergenicity patterns.
+# 🌳 Trees in 11238
+Svelte & D3.js for data visualization and force simulations
 
 ## Features
 
-- **Geographic View**: See the actual distribution of trees across the landscape
-- **Optimized Visualization**: View all trees in a clear, non-overlapping arrangement
-- **Allergy Awareness**: Identify which trees might trigger seasonal allergies
+- **Map View**: See the actual distribution of trees across the landscape
+- **Flatten Visualization**: View all trees in a flattened, non-overlapping arrangement
+- **Sort Allergy-Prone Trees**: Spotlight the sneeze-makers—filter trees might trigger seasonal allergies
 - **Size Comparison**: Compare tree diameters from smallest to largest
-- **Biodiversity Exploration**: Discover the variety and distribution of tree species
-- **Seasonal Patterns**: Track tree pollen activity throughout the year
-
-## Technologies Used
-
-- Svelte for UI components and reactivity
-- D3.js for data visualization and force simulations
-- Vite for fast development and optimized build
+- **Genus Exploration**: Discover the variety of tree species
+- **Pollen Calendar**: Track monthly tree pollen activity throughout the year
 
 ## Development
 
@@ -32,7 +25,3 @@ npm run build
 # Deploy to GitHub Pages
 npm run deploy
 ```
-
-## Visit the Live Site
-
-Visit the live visualization at: [https://yourusername.github.io/trees-11238](https://yourusername.github.io/trees-11238)
