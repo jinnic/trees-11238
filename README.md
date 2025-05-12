@@ -1,5 +1,5 @@
 # 🌳 Trees in 11238
-
+Svelte & D3.js for data visualization and force simulations
 
 ## Features
 
@@ -9,12 +9,6 @@
 - **Size Comparison**: Compare tree diameters from smallest to largest
 - **Genus Exploration**: Discover the variety of tree species
 - **Pollen Calendar**: Track monthly tree pollen activity throughout the year
-
-## Technologies Used
-
-- Svelte for UI components and reactivity
-- D3.js for data visualization and force simulations
-- Vite for fast development and optimized build
 
 ## Development
 
